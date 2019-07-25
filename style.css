@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.01_image {
+  width: 100px;
+  height: 100px;
+  background-image: -webkit-image-set( url(images/01-gecko.png) 1x, url(images/01-gecko@2x.png) 2x);
+}
