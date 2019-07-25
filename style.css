@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kosugi&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Kosugi, sans-serif;
 	font-size: 15px;
 }
 
@@ -16,7 +19,7 @@ body {
 .content {
 	width: 100%;
 	height: auto;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 .space {
@@ -24,31 +27,17 @@ body {
 }
 
 .mail a {
-	display: block;
-	margin: 20px 0 30px 0;
-	text-align: center;
-	padding: 30px 0 30px 0;
-	border: 1px rgba(0,0,0,0.1) solid;
-	border-radius: 5px;
-	background-color: #0085FF;
-	color: white;
-	box-shadow: 0 3px 7px 0 rgba(0,149,251,0.40);
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 20px;
-	text-transform: uppercase;
-	transition-duration: 0.5s;
+	margin: 20px auto;
+	color: black;
+	font-size: 50px;
+	transition-duration: 0.1s;
 }
 
 .mail a:hover {
-	background-color: #0095FB;
-	box-shadow: 0 5px 10px 0 rgba(0,149,251,0.50);
+	color: red;
 }
 
 .mail a:active {
-	margin: 21px auto 29px auto;
-	background-color: #0580D7;
-	box-shadow: 0 3px 7px 0 rgba(0,149,251,0.40);
 }
 
 img {
