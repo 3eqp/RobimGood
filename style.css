@@ -1,11 +1,52 @@
 
-@import url('https://fonts.googleapis.com/css?family=Kosugi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Kosugi, sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 15px;
+}
+
+img {
+	display: block;
+}
+
+.dropbox {
+
+}
+
+.dropbox:hover {
+	fill: #0061FF;
+	opacity: 1;
+}
+
+.link-icon {
+	float: right;
+	margin-left: 10px;
+	height: 25px;
+	width: 25px;
+	fill: #000;
+	opacity: 0.4;
+	transition-duration: 0.3s;
+}
+
+.link-icon:hover {
+	opacity: 1;
+}
+
+.behance {
+	height: 28px;
+	width: 28px;
+}
+
+.behance:hover {
+	fill: #0057ff;
+	opacity: 1;
+}
+
+.img_hd {
+	width: 100%;
 }
 
 .grid {
@@ -19,28 +60,65 @@ body {
 .content {
 	width: 100%;
 	height: auto;
-	margin: 30px auto;
+	margin: 0 auto;
 }
 
 .space {
-	padding-top: 20px;
+	padding-top: 15px;
 }
 
 .mail a {
+	float: left;
 	margin: 20px auto;
+	font-size: 20px;
+}
+
+a {
 	color: black;
-	font-size: 50px;
+	text-decoration: none;
 	transition-duration: 0.1s;
 }
 
-.mail a:hover {
+.profile {
+	float: right;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+a:hover {
 	color: red;
 }
 
-.mail a:active {
+.breakline { 
+    display: block;
+    width: 100%;
+    margin: 20px 0 0 0;
+    height: 1px;
+    overflow: hidden;
+    background-color: #000;
 }
 
-img {
-	display: block;
-	width: 100%;
+.title {
+	margin-top: 50px;
+	font-size: 40px;
 }
+
+.description {
+	padding: 10px 0 15px 0;
+}
+
+h2 {
+	padding: 50px 0 20px 0;
+	font-weight: 300;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 15px;
+	text-align: center;
+	border-bottom: 1px solid;
+	border-color: #e7e7e7;
+}
+
+
+
+
+
+
