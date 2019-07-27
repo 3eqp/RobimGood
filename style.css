@@ -118,7 +118,39 @@ h2 {
 }
 
 
+.interactive {
+	float: left;
+	display: block;
+	height: 100px;
+	margin: 50px 0 50px 0;
+}
 
+#click-hf {
 
+}
+
+.high-five {
+	height: 100px;
+	margin-bottom: 0;
+	fill: #000;
+	cursor: pointer;
+	transition-duration: 0.1s;
+}
+
+.high-five:hover {
+	fill: red;
+}
+
+.high-five:active {
+	fill: red;
+	height: 95px;
+}
+
+.counter {
+	float: right;
+	margin: 30px 0 0 20px;
+	font-weight: 300;
+	font-size: 30px;
+}
 
 
