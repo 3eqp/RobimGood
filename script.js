@@ -28,3 +28,23 @@ function changeLinkColor() {
 
 //setInterval(changeLinkColor, 1000);
 
+var IsVideoStarted = false;
+
+function playVid(element_id) {
+	var myPlayer = document.getElementById("myVideo");
+	if (!IsVideoStarted) {
+		myPlayer.setAttribute('src', 'https://www.dropbox.com/s/vzxe469swxfwyrz/rivercity-banners.mp4?raw=1');
+		IsVideoStarted = true;
+		myPlayer.pause();
+	}
+	myPlayer.play();
+	$("#" + element_id).addClass("pressed");
+	$("#" + element_id).hide();
+}
+
+function pauseVid() {
+	var myPlayer = document.getElementById("myVideo");
+	myPlayer.pause();
+	$("#btn-play").removeClass("pressed");
+	$("#btn-play").show();
+}
