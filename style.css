@@ -15,10 +15,6 @@ img {
 	display: block;
 }
 
-.dropbox {
-
-}
-
 .dropbox:hover {
 	fill: #0061FF;
 	opacity: 1;
